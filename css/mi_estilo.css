@@ -1,0 +1,97 @@
+html {
+    height: auto;
+    min-height: 100%;    
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 1.3em;
+}
+h4 {
+    text-align: center;
+}
+
+body {
+    background: rgb(85, 89, 109);
+    background: linear-gradient(0deg, rgb(68, 127, 134) 0%, rgb(250, 252, 253) 100%);
+}
+
+a {
+    color: black;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a:hover {
+    color: darkorange;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.borde-negro {
+    border: 2px solid black;
+}
+
+#titulo {
+    margin: 20px;
+    padding: 20px;
+}
+
+.cuadrito {
+    background-color: bisque;
+    height: auto;
+    overflow: auto;
+    width: 220px;
+    margin: 10px;
+    padding: 9px;
+}
+
+.cuadrito img {
+    height: 100%;
+    width: 100%;
+    
+}
+
+.contenedor-medio {
+    display: flex;
+    margin: 35px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.caja {
+    height: 200px;
+    width: 400px;
+}
+
+#nosotros {
+    background-image: url('../img/consultorio.jpg');
+    background-repeat: no-repeat;
+    color:white;
+    background-size: cover;
+    height: 400px;
+}
+
+
+.fotos {
+    height: 300px;
+    margin: 20px;
+}
+
+.lorem {
+    font-size: 0.9em;
+}
+
+footer {
+    position: relative;
+    clear: both;
+    margin-top: 100px;
+    background-color: rgb(38, 172, 212);
+    padding: 5px;
+}
